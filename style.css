@@ -162,11 +162,10 @@ div.l-box a {
 }
 ul#nav  
 {
-	float: left;
+	float: right;
+	position: relative;
 	width: 660px;
-	position: absolute;
 	line-height: 40px;
-	left: 500px;
 	top: 70px;
 }
 
@@ -185,6 +184,7 @@ ul#nav
 li#frame {
 	position: absolute;
 	top: 3px;
+	left:0;
 	text-indent: -9999px;
 	width: 90px;
 	height: 30px;

@@ -10,6 +10,7 @@ function startMove(obj,attr,iTarget,fnEnd) {
 function doMove(obj, attr, iTarget, fnEnd)
 {
 	var iCur = parseFloat(getStyle(obj, attr));
+
 	if (attr == "opacity")
 	{
 		iCur = parseInt(iCur * 100)
